@@ -8,7 +8,7 @@ By default only hours, minutes and seconds are shown in the main window. There's
 ![WindowPreview](https://github.com/403nul/SessionTracker/blob/main/status.png)
 
 ## Menu
-The menu is shown whenever pressing Ctrl+M regardless of what program is in focus. The options are:
+The menu is shown on mouse location whenever pressing Ctrl+M, regardless of what program is in focus. The options are:
 * **Resume Previous Time** - loads the saved time stored in **timer.ini**
 * **Program 1/3** - three slots to specify which programs are considered work.
 * **Pause Timeout** - decides if being idle stops the timer or not.
@@ -22,7 +22,7 @@ The menu is shown whenever pressing Ctrl+M regardless of what program is in focu
 ## Config File
 Upon first run a config file called **timer.ini** is automatially created wherever the exectutable is ran. It saves menu options and has extra settings such as:
 
-* **Timeout** - how long it takes in seconds for inactivity to stop the timer.
+* **Timeout** - how long it takes in seconds of inactivity to stop the timer.
 * **OnColor** - the color of the window when working.
 * **OffColor** - the color of the window when not working.
 * **LastTime** - last saved time, can be manuaully overwritten in the config and restored with "Resume Previous Time."
