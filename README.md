@@ -28,4 +28,4 @@ Upon first run a config file called **timer.ini** is automatially created wherev
 * **LastTime** - last saved time, can be manuaully overwritten in the config and restored with "Resume Previous Time."
 
 ## Download
-Either download the [AutoHotkey script itself](https://github.com/403nul/SessionTracker/blob/main/session_tracker.ahk) or the [executable](https://github.com/403nul/SessionTracker/blob/main/session_tracker.exe) compiled with Ahk2Exe.
+AutoHotkey Script / Executable: [Download](https://github.com/403nul/SessionTracker/releases/tag/dl)
